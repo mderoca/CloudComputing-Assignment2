@@ -4,13 +4,45 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hello, World</title>
+  <style>
+    /* Page layout */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #333;
+      color: #fff;
+    }
+
+    /* Card container */
+    .card {
+      background-color: #444;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      width: 80%;
+      max-width: 600px;
+    }
+
+    /* Headings & text */
+    h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin: 0 0 0.5rem;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #333; color: #fff;">
+  
+<body>
 
-  <div style="background-color: #444; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); width: 80%; max-width: 600px;">
-    <h1 style="font-size: 3rem; color: #fff;">Hello, World! :D</h1>
-    <p style="color: #ccc; font-size: 1.2rem;">By Marc Deroca (100456302)</p>
-
+  <div class="card">
+    <h1>Hello, World! :D</h1>
+    <p>By Marc Deroca (100456302)</p>
   </div>
 
 </body>
